@@ -163,6 +163,10 @@ If you specify this option in a two-port serial, SNMP or HTTP protocol, the elem
 
 *Feature introduced in DataMiner 8.0.7 (RN 7076).*
 
+> [!NOTE]
+>
+> - This option is currently only supported when having exactly 2 connections and those are of the same type.
+
 ### smartIpHeader
 
 On TCP, every packet will have the following extra header bytes:
